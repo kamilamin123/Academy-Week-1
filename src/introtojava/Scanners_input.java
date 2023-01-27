@@ -19,7 +19,7 @@ public class Scanners_input {
 				System.out.println(num + " is odd.");
 
 }
-	
+	scanner.close();
 		    }
 		
 	
