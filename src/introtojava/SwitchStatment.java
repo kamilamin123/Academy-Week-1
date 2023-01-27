@@ -22,7 +22,7 @@ public class SwitchStatment {
 				System.out.println("number 4");
 				continue;
 			case 5:
-				System.out.println("number 4");
+				System.out.println("number 5");
 				continue;
 			default:
 				break;

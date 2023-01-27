@@ -8,6 +8,7 @@ public class Scanner2 {
 		 Scanner scanner = new Scanner(System.in);
 		    System.out.print("Enter your name: ");
 		    String name = scanner.nextLine();
+		    scanner.close();
 		    if(name.length() > 20) {
 		    	System.out.println("Please enter a name with < 20 chars");
 		    	
