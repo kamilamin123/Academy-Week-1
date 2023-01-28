@@ -28,6 +28,7 @@ public class Scannerslon {
 	    num5 = scan.nextLong();
 	    System.out.print("Input number from -32,768 to 32,767: ");
 	    num6 = scan.nextShort();
+	    scan.close();
 	    System.out.println("the user name: "+ userName);
 	    System.out.println("is it new user: "+ newUser);
 	    System.out.println("byte : "+ num1);
