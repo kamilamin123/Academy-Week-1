@@ -14,14 +14,15 @@ public class reversenumber {
 				x=false;
 				break;
 			default:
-				int length = String.valueOf(num).length();
-				for (int i=0; i<length; i++ ) {
-					int temp = num%10;
-					System.out.print(temp);
+				int  reverse = 0;
+				int temp;
+				while(num != 0) {
+					temp = num % 10;
+					reverse= reverse*10+temp;
 					num= num/10;
 					
 				}
-				System.out.print('\n');
+				System.out.println("\n"+reverse);
 			}
 			
 			
